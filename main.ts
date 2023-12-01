@@ -1,5 +1,6 @@
 startbit.startbit_Init()
 let angle = 1
+startbit.startbit_setFanSpeed(startbit.startbit_fanPort.port1, 100)
 startbit.setPWMServo(startbit.startbit_servorange.range2, 1, angle, 500)
 basic.pause(500)
 basic.forever(function () {
